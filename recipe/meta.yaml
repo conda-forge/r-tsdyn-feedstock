@@ -1,4 +1,4 @@
-{% set version = '11.0.4' %}
+{% set version = "11.0.4.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,12 +10,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/tsDyn_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/tsDyn/tsDyn_{{ version }}.tar.gz
-  sha256: 54d2e104cc8b40b9684feb9fb3e8c32c0167b8a6e99d5e0b4cb8d2a9f1db9c32
+  sha256: 38af697636d2cb02c11a46fd109a35b29ac57e4f193d61a0bf7a256c8c9b8713
 
 build:
   missing_dso_whitelist:
     - "*/R.dll"  # [win]
-  merge_build_host: True  # [win]
+  merge_build_host: true  # [win]
   number: 0
   rpaths:
     - lib/R/lib/
@@ -67,13 +67,8 @@ test:
 about:
   home: https://github.com/MatthieuStigler/tsDyn/wiki
   license: GPL-2.0-or-later
-  summary: 'Implements nonlinear autoregressive (AR) time series models. For univariate series,
-    a non-parametric approach is available through additive nonlinear AR. Parametric
-    modeling and testing for regime switching dynamics is available when the transition
-    is either direct (TAR: threshold AR) or smooth (STAR: smooth transition AR, LSTAR).
-    For multivariate series, one can estimate a range of TVAR or threshold cointegration
-    TVECM models with two or three regimes. Tests can be conducted for TVAR as well
-    as for TVECM (Hansen and Seo 2002 and Seo 2006).'
+  summary: 'Implements nonlinear autoregressive (AR) time series models. For univariate series, a non-parametric approach is available through additive nonlinear AR. Parametric modeling and testing for regime switching dynamics is available when the transition is either direct (TAR: threshold AR) or smooth (STAR: smooth
+    transition AR, LSTAR). For multivariate series, one can estimate a range of TVAR or threshold cointegration TVECM models with two or three regimes. Tests can be conducted for TVAR as well as for TVECM (Hansen and Seo 2002 and Seo 2006).'
   license_family: GPL2
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
