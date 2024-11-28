@@ -7,7 +7,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tsdyn-feedsto
 About r-tsdyn
 -------------
 
-Home: https://github.com/MatthieuStigler/tsDyn/wiki
+Home: https://github.com/MatthieuStigler/tsDyn
 
 Package license: GPL-2.0-or-later
 
@@ -16,7 +16,7 @@ Summary: Implements nonlinear autoregressive (AR) time series models. For univar
 About r-tsdyn
 -------------
 
-Home: https://github.com/MatthieuStigler/tsDyn/wiki
+Home: https://github.com/MatthieuStigler/tsDyn
 
 Package license: GPL-2.0-or-later
 
