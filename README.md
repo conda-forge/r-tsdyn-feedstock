@@ -7,20 +7,24 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tsdyn-feedsto
 About r-tsdyn
 -------------
 
-Home: https://github.com/MatthieuStigler/tsDyn
+Home: https://github.com/MatthieuStigler/tsDyn/wiki
 
 Package license: GPL-2.0-or-later
 
 Summary: Implements nonlinear autoregressive (AR) time series models. For univariate series, a non-parametric approach is available through additive nonlinear AR. Parametric modeling and testing for regime switching dynamics is available when the transition is either direct (TAR: threshold AR) or smooth (STAR: smooth transition AR, LSTAR). For multivariate series, one can estimate a range of TVAR or threshold cointegration TVECM models with two or three regimes. Tests can be conducted for TVAR as well as for TVECM (Hansen and Seo 2002 and Seo 2006).
+
+Development: https://github.com/MatthieuStigler/tsDyn
 
 About r-tsdyn
 -------------
 
-Home: https://github.com/MatthieuStigler/tsDyn
+Home: https://github.com/MatthieuStigler/tsDyn/wiki
 
 Package license: GPL-2.0-or-later
 
 Summary: Implements nonlinear autoregressive (AR) time series models. For univariate series, a non-parametric approach is available through additive nonlinear AR. Parametric modeling and testing for regime switching dynamics is available when the transition is either direct (TAR: threshold AR) or smooth (STAR: smooth transition AR, LSTAR). For multivariate series, one can estimate a range of TVAR or threshold cointegration TVECM models with two or three regimes. Tests can be conducted for TVAR as well as for TVECM (Hansen and Seo 2002 and Seo 2006).
+
+Development: https://github.com/MatthieuStigler/tsDyn
 
 Current build status
 ====================
